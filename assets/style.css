@@ -114,10 +114,5 @@ a:hover {
 }
 
 a.clicked {
-    color: #290458; /* Change this to your desired color for visited links */
+    color: #401d6e; /* Change this to your desired color for visited links */
 }
-
-a:not(:visited) {
-    color: inherit;
-}
-
