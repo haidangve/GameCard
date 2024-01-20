@@ -9,3 +9,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get all anchor elements
+    var links = document.querySelectorAll('a');
+
+    // Add click event listener to each link
+    links.forEach(function (link) {
+        link.addEventListener('click', function () {
+            // Add a class to the clicked link
+            link.classList.add('clicked');
+        });
+    });
+});
