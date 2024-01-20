@@ -1,23 +1,21 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function () {
+    // Heart Icons
     var heartIcons = document.querySelectorAll('.fa-heart');
 
     heartIcons.forEach(function (heartIcon) {
         heartIcon.addEventListener('click', function () {
+            // Toggle between empty and filled heart icons
+            this.classList.toggle('far');
             this.classList.toggle('fas');
-            this.classList.toggle('fa-heart-filled');
+            this.classList.toggle('fa-heart-filled'); // Add this line
         });
     });
-});
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Get all anchor elements
+    // Links
     var links = document.querySelectorAll('a');
 
-    // Add click event listener to each link
     links.forEach(function (link) {
         link.addEventListener('click', function () {
-            // Add a class to the clicked link
             link.classList.add('clicked');
         });
     });
