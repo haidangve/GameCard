@@ -19,4 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
             link.classList.add('clicked');
         });
     });
+
+    var toggleBtn = document.querySelector('.theme-toggle-btn')
+    var body = document.querySelector('body')
+
+    toggleBtn.addEventListener('click', function(){
+        body.classList.toggle('dark')
+        toggleBtn.classList.toggle('dark')
+    })
 });
