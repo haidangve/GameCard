@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="./assets/style.css" rel = "styleSheet"/>
         <title>Game Card Project</title>
         <link rel="icon" href="./assets/TitleLogo.png" type="image/icon type">
@@ -8,52 +11,71 @@
         <script src="https://kit.fontawesome.com/63f7b6dad5.js" crossorigin="anonymous"></script>       
     </head>
     <body>
-        <div class="card">
-            <h3>8.9</h3>
-            <i class="fa-regular fa-heart"></i>
-            <div class="image">
-                <img src="./assets/DarkSoulsCharacter.png">
-                <img class = "blur" src="./assets/DarkSoulsCharacter.png">
-            </div>
-            <div class="text">
-                <a href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank"><h2>Dark Souls</h2></a>
-                <p>
-                    is a 2011 action role-playing game developed by FromSoftware and published by Namco Bandai Games.                    
-                </p>
-            </div>
-        </div>
+        <header>
+            <nav>
+                <a href="#" class="logo">Game Card Project</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="theme-toggle-btn">
+                    <img src="./assets/sun.png" alt="">
+                    <img src="./assets/moon.png" alt="">
+                    <span></span>
+                </div>
+            </nav>
+        </header>
 
-        <div class="card">
-            <h3>8.5</h3>
-            <i class="fa-regular fa-heart"></i>
-            <div class="image">
-                <img src="./assets/FarCry4Character.png">
-                <img class="blur" src="./assets/FarCry4Character.png">
+        <main>
+            <div class="card">
+                <h3>8.9</h3>
+                <i class="fa-regular fa-heart"></i>
+                <div class="image">
+                    <img src="./assets/DarkSoulsCharacter.png">
+                    <img class = "blur" src="./assets/DarkSoulsCharacter.png">
+                </div>
+                <div class="text">
+                    <a href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank"><h2>Dark Souls</h2></a>
+                    <p>
+                        is a 2011 action role-playing game developed by FromSoftware and published by Namco Bandai Games.                    
+                    </p>
+                </div>
             </div>
-            <div class="text">
-                <a href="https://farcry.fandom.com/wiki/Far_Cry_4" target="_blank"><h2>Far Cry 4</h2></a>
-                <p>
-                    is an open world first person action video game developed by 
-                    Ubisoft Montreal in conjuction with Ubisoft Red Storm.
-                </p>
+    
+            <div class="card">
+                <h3>8.5</h3>
+                <i class="fa-regular fa-heart"></i>
+                <div class="image">
+                    <img src="./assets/FarCry4Character.png">
+                    <img class="blur" src="./assets/FarCry4Character.png">
+                </div>
+                <div class="text">
+                    <a href="https://farcry.fandom.com/wiki/Far_Cry_4" target="_blank"><h2>Far Cry 4</h2></a>
+                    <p>
+                        is an open world first person action video game developed by 
+                        Ubisoft Montreal in conjuction with Ubisoft Red Storm.
+                    </p>
+                </div>
             </div>
-        </div>
-
-        <div class="card">
-            <h3>9.2</h3>
-            <i class="fa-regular fa-heart"></i>
-            <div class = "image">
-                <img src="./assets/BloodborneCharacter.png">
-                <img class = "blur" src="./assets/BloodborneCharacter.png">
+    
+            <div class="card">
+                <h3>9.2</h3>
+                <i class="fa-regular fa-heart"></i>
+                <div class = "image">
+                    <img src="./assets/BloodborneCharacter.png">
+                    <img class = "blur" src="./assets/BloodborneCharacter.png">
+                </div>
+                <div class="text">
+                    <a href ="https://bloodborne.wiki.fextralife.com/Bloodborne+Wiki" target="_blank"><h2>Bloodborne</h2></a>
+                    <p>
+                        is a 2015 Action RPG from renowned Japanese developer FromSoftware exclusively for the PlayStation 4 system.
+                    </p>
+                </div>
             </div>
-            <div class="text">
-                <a href ="https://bloodborne.wiki.fextralife.com/Bloodborne+Wiki" target="_blank"><h2>Bloodborne</h2></a>
-                <p>
-                    is a 2015 Action RPG from renowned Japanese developer FromSoftware exclusively for the PlayStation 4 system.
-                </p>
-            </div>
-        </div>
-
+        </main>
+                
         <script src="script.js"></script>
     </body>
 </html>
